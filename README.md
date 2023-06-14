@@ -24,13 +24,13 @@ python3 -m venv venv
 ```py
 pip install -r requirements.txt
 ```
-4. Создать .env и прописать:
+4. Создать .env и прописать данную строку с токеном:
 ```py
 touch .env
 nano .env
 TOKEN =5993019843:AAFZuWg9qdc5rlJoY-7RkuvFA5MXL2V2sjw
 ```
-6. Запустить бота:
+5. Запустить бота:
 ```py
 python main.py
 ```
